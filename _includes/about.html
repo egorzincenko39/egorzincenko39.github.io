@@ -1,0 +1,31 @@
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6">
+                <h2>{{ site.data.pro-fest.title }}</h2>
+                <p>{{ site.data.pro-fest.description }}</p>
+            </div>
+            <div class="col-lg-6 ml-lg-auto">
+                <div class="video">
+                    <iframe width="560" height="315" src="{{ site.data.pro-fest.video }}" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-between mt-5 justify-content-start">
+            <div class="col-md-auto d-flex align-items-center">
+                <div class="about__text-clip about__text-clip_img-1"><span>{{ site.data.pro-fest.number-1 }}</span></div>
+                <div class="about__text-description"><span>{{ site.data.pro-fest.number-description-1 }}</span></div>
+            </div>
+            <div class="col-md-auto d-flex align-items-center">
+                <div class="about__text-clip about__text-clip_img-2"><span>{{ site.data.pro-fest.number-2 }}</span></div>
+                <div class="about__text-description"><span>{{ site.data.pro-fest.number-description-2 }}</span></div>
+            </div>
+            <div class="col-md-auto d-flex align-items-center">
+                <div class="about__text-clip about__text-clip_img-3"><span>{{ site.data.pro-fest.number-3 }}</span></div>
+                <div class="about__text-description"><span>{{ site.data.pro-fest.number-description-3 }}</span></div>
+            </div>
+        </div>
+    </div>
+</section>

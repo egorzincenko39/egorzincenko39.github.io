@@ -1,0 +1,21 @@
+menu-items:
+  - title: Програма
+    link: https://docs.google.com/spreadsheets/d/13iv3LZcZ4uOnhtHeOkLxBKIO0u9TRfML6D1nbG1C0bE/edit#gid=0
+
+  - title: Вартість
+    link: https://docs.google.com/document/d/1OSGq6AbfKj6o3AoM1fcH8hE4-i1iDH09rM50KSOETK0/edit
+
+  - title: Тренера
+    link: https://docs.google.com/document/d/1OJUH11x-wpwvF_RguR7RQAekFGO1EDi7j2F5H5ElBMs/edit?fbclid=IwAR3WC4kTT92XHWo_vbEwfHqOBx-7Gi8LSdlVinemZ0s-Mt3P1quTuAp3DUAt
+
+  - title: Календар
+    link: https://drive.google.com/open?id=1nN0ykY1xz9v9lI4nBm53bLGLtq5kyXLQZCkJGJolkKQ
+
+main-phone: 095 57 39 058
+main-phone-img: vodafone.svg
+
+all-phones:
+  - phone: 095 75 96 946
+    img: vodafone.svg
+  - phone: 098 39 74 591
+    img: kyivstar.svg

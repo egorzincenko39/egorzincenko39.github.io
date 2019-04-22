@@ -1,1 +1,54 @@
-
+---
+# Заголовок сайта
+    title: Кульбаба - щорічний фестиваль-інтенсив
+---
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/style.css?v=1552389627949" rel="stylesheet">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    {% include header.html %}
+    <main>
+        {% include main-info.html %}
+        {% include about.html %}
+        {% include gallery.html %}
+        {% include features.html %}
+        {% include aura.html %}
+        <!--{% include activity.html %}-->
+        {% include mk.html %}
+        {% include info.html %}
+        {% include feedback.html %}
+        {% include history.html %}
+        {% include faq.html %}
+    </main>
+    {% include footer.html %}
+    {% include modal.html %}
+    <script src='js/libs.min.js'></script>
+    <script src='js/main.js'></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBngR0udXiqKMVi7rkAMVGKqJgX39VdBas&callback=initMap"></script>
+    <script>function initMap() {
+        var center = {lat: 50.7236025, lng: 34.683520};
+        var centerMobile = {lat: 50.720301, lng: 34.6917173};
+        var patrionovka = {lat: 50.722514, lng: 34.690346};
+        if (window.innerWidth > 575) {
+            center = {lat: 50.7236025, lng: 34.683520};
+        } else {
+            center = centerMobile;
+        }
+        var map = new google.maps.Map(document.getElementById('map'), {zoom: 15, center: center});
+        var marker = new google.maps.Marker({position: patrionovka, map: map, icon: 'img/pin.png'});
+    }</script>
+</body>
+</html>

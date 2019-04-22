@@ -1,0 +1,19 @@
+<section class="history">
+    <div class="container">
+        <div class="row">
+            <div class="col"><h2>{{ site.data.istoriya.title }}</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="history__image"><img src="img/{{ site.data.istoriya.img }}"></div>
+                <span>Організатори Олена та Єгор</span></div>
+            <div class="col-lg-7 ml-lg-auto col-sm-8">
+                <div class="history__text history__text_shadow">
+                    {% for item in site.data.istoriya.items %}
+                        <p>{{ item.paragraph }}</p>
+                    {% endfor %}
+                </div>
+                <a class="history__link" href="#">Читати повністю</a></div>
+        </div>
+    </div>
+</section>

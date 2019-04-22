@@ -1,0 +1,71 @@
+<section class="info">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="info__tab info__tab_active" data-tab="1"><span>В якості кого можна приїхати</span></div><div class="info__tab" data-tab="2"><span>Умови участі</span></div><div class="info__tab" data-tab="3"><span>Що потрібно взяти з собою</span></div><div class="info__tab" data-tab="4"><span>Правила поведінки</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row info__item">
+            {% for item in site.data.info.kto %}
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="info__member">
+                        <h3>{{ item.name }}</h3>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="row info__item">
+            <div class="col-sm-6">
+                <ul>
+                    {% for item in site.data.info.umovy.first-part %}
+                        <li>{{ item.description }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul>
+                    {% for item in site.data.info.umovy.second-part %}
+                        <li>{{ item.description }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row info__item">
+            <div class="col-sm-6">
+                <ul>
+                    {% for item in site.data.info.vzyaty.first-part %}
+                        <li>{{ item.description }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul>
+                    {% for item in site.data.info.vzyaty.second-part %}
+                        <li>{{ item.description }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row info__item">
+            <div class="col-sm-6">
+                <ul>
+                    {% for item in site.data.info.pravyla.first-part %}
+                        <li>{{ item.description }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul>
+                    {% for item in site.data.info.pravyla.second-part %}
+                        <li>{{ item.description }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-12"><p class="information_cursive">{{ site.data.info.warning-1 }}</p></div>
+            <div class="col-12"><p class="information_alert">{{ site.data.info.warning-2 }}</p></div>
+        </div>
+    </div>
+</section>
