@@ -33,6 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {% include main-info.html %}
         {% include about.html %}
         {% include gallery.html %}
+        {% include place.html %}
         {% include features.html %}
         {% include aura.html %}
         <!--{% include activity.html %}-->
@@ -48,11 +49,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src='js/main.js'></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBngR0udXiqKMVi7rkAMVGKqJgX39VdBas&callback=initMap"></script>
     <script>function initMap() {
-        var center = {lat: 50.7236025, lng: 34.683520};
-        var centerMobile = {lat: 50.720301, lng: 34.6917173};
-        var patrionovka = {lat: 50.722514, lng: 34.690346};
+        var center = {lat:46.408258, lng: 35.410425};
+        var centerMobile = {lat: 46.407762, lng: 35.411251};
+        var patrionovka = {lat: 46.408232, lng: 35.411176};
         if (window.innerWidth > 575) {
-            center = {lat: 50.7236025, lng: 34.683520};
+            center = {lat:46.408258, lng: 35.410425};
         } else {
             center = centerMobile;
         }

@@ -1,0 +1,50 @@
+<section class="place">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col"><h2>{{ site.data.nove-misce.title }}</h2>
+        <p>На фестивалі ви можете відвідати різні зони:</p></div>
+    </div>
+    <div class="row">
+      <div class="col-xl-auto col-sm-6">
+        <div class="place__item place__item_left">
+          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-img-1 }}"></div>
+          <div class="place__descr">{{ site.data.nove-misce.item-description-1 }}</div>
+        </div>
+        <div class="place__item place__item_left">
+          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-img-2 }}"></div>
+          <div class="place__descr">{{ site.data.nove-misce.item-description-2 }}</div>
+        </div>
+        <div class="place__item place__item_left">
+          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-img-3 }}"></div>
+          <div class="place__descr">{{ site.data.nove-misce.item-description-3 }}</div>
+        </div>
+      </div>
+      <div class="col-xl-5 col-12 d-flex align-items-center order-first order-xl-0">
+        <div class="place__video-container">
+          <div class="video">
+            <iframe width="560" height="315" src="{{ site.data.nove-misce.video }}" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
+          <div class="place__video-descr"><p>{{ site.data.nove-misce.video-description-1 }}</p><span>{{
+            site.data.nove-misce.video-description-2 }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-auto col-sm-6">
+        <div class="place__item place__item_right">
+          <div class="place__descr">{{ site.data.nove-misce.item-description-4 }}</div>
+          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-img-4 }}"></div>
+        </div>
+        <div class="place__item place__item_right">
+          <div class="place__descr">{{ site.data.nove-misce.item-description-5 }}</div>
+          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-img-5 }}"></div>
+        </div>
+        <div class="place__item place__item_right">
+          <div class="place__descr">{{ site.data.nove-misce.item-description-6 }}</div>
+          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-img-6 }}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
