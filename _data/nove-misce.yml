@@ -1,4 +1,3 @@
-# Размер картинок 130x130 px
 # &nbsp; обязательно ставить после знака :
 title: <span>Нове місце</span>&nbsp;проведення фестивалю
 description: На базі відпочинку ви можете відвідати додаткові зони:&nbsp;
@@ -7,20 +6,14 @@ video: https://www.youtube.com/embed/bI46wZXJKH4
 video-description-1: Нова база "Дніпровські зорі , Азовське море
 video-description-2: Запорізька обл., Кирилівка, вул. Коса Пересип, 96
 
-item-img-1: place-1.jpg
 item-description-1: Пляж 20м від бази
 
-item-img-2: place-2.jpg
 item-description-2: Дитяча зона
 
-item-img-3: place-3.jpg
 item-description-3: Релакс зони з гамаками
 
-item-img-4: place-4.jpg
 item-description-4: Активна зона (волейбол, теніс, більярд)
 
-item-img-5: place-5.jpg
 item-description-5: Басейн
 
-item-img-6: place-6.jpg
 item-description-6: Кафе
