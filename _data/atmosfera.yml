@@ -1,11 +1,24 @@
 title: В приємній дружній атмосфері Кульбаби:&nbsp;
 
+# Размер первой картинки 166x166
+# Второй (@2x) - 332x332 (эта картинка нужна для хорошего качества на экранах с высокой плотностью пикселей (ретина))
+
 item-description-1: перезавантажитись морально і фізично
+item-description-img-1: aura-item-1.jpg
+item-description-img-1@2x: aura-item-1@2x.jpg
 
 item-description-2: корисні знайомства, цікаве спілкування з великою кількістю людей, багато нових друзів
+item-description-img-2: aura-item-2.jpg
+item-description-img-2@2x: aura-item-2@2x.jpg
 
 item-description-3: цікава вечірня программа:&nbsp;концерт, театральне дійство та інше
+item-description-img-3: aura-item-3.jpg
+item-description-img-3@2x: aura-item-3@2x.jpg
 
 item-description-4: можна прокачатися на великій кількості різноманітних майстер-класів
+item-description-img-4: aura-item-4.jpg
+item-description-img-4@2x: aura-item-4@2x.jpg
 
 item-description-5: цікаві зони на фестивалі, з різними товарами і активностями.
+item-description-img-5: aura-item-5.jpg
+item-description-img-5@2x: aura-item-5@2x.jpg
