@@ -1,16 +1,16 @@
 # &nbsp; обязательно ставить после знака :
 
-title: <span>Нове місце</span>&nbsp;проведення фестивалю
+title: <span>Актуальне для наступного фестивалю</span>&nbsp;
 description: На базі відпочинку ви можете відвідати додаткові зони:&nbsp;
 
-video: https://www.youtube.com/embed/bI46wZXJKH4
-video-description-1: Нова база "Дніпровські зорі , Азовське море
-video-description-2: Запорізька обл., Кирилівка, вул. Коса Пересип, 96
+video: https://youtu.be/v9af93123po
+video-description-1: Конгрес-центр 
+video-description-2: місто Суми, вулиця Покровська, 9/1
 
 # Размер первой картинки 130х130
 # Второй (@2x) - 260x260 (эта картинка нужна для хорошего качества на экранах с высокой плотностью пикселей (ретина))
 
-item-description-1: Пляж 20м від бази
+item-description-1: Зони майстер-класів
 item-description-img-1: place-1.jpg
 item-description-img-1@2x: place-1@2x.jpg
 
@@ -18,18 +18,18 @@ item-description-2: Дитяча зона
 item-description-img-2: place-2.jpg
 item-description-img-2@2x: place-2@2x.jpg
 
-item-description-3: Релакс зони з гамаками
+item-description-3: Релакс зона
 item-description-img-3: place-3.jpg
 item-description-img-3@2x: place-3@2x.jpg
 
-item-description-4: Активна зона (волейбол, теніс, більярд)
+item-description-4: ярмарка
 item-description-img-4: place-4.jpg
 item-description-img-4@2x: place-4@2x.jpg
 
-item-description-5: Басейн
+item-description-5: Футкорт
 item-description-img-5: place-5.jpg
 item-description-img-5@2x: place-5@2x.jpg
 
-item-description-6: Кафе
+item-description-6: арт-простір
 item-description-img-6: place-6.jpg
 item-description-img-6@2x: place-6@2x.jpg
