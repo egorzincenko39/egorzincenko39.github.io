@@ -1,34 +1,23 @@
 # &nbsp; обязательно ставить после знака :
 
 title: <span>Актуальне для наступного фестивалю</span>&nbsp;
-description: На базі відпочинку ви можете відвідати додаткові зони:&nbsp;
 
-video: https://youtu.be/v9af93123po
+video: https://www.youtube.com/embed/v9af93123po
 video-description-1: Конгрес-центр 
 video-description-2: місто Суми, вулиця Покровська, 9/1
 
-# Размер первой картинки 130х130
-# Второй (@2x) - 260x260 (эта картинка нужна для хорошего качества на экранах с высокой плотностью пикселей (ретина))
+item-description-1: місце проведення сучасний комфортний Конгресс-центр СумДУ https://congress-center.business.site/
 
-item-description-1: Зони майстер-класів
-item-description-img-1: place-1.jpg
-item-description-img-1@2x: place-1@2x.jpg
+item-description-2: Новий формат що дозволить переключитись і поринути у фестивальну атмосферу у центрі міста
 
-item-description-2: Дитяча зона
-item-description-img-2: place-2.jpg
-item-description-img-2@2x: place-2@2x.jpg
 
-item-description-3: Релакс зона
-item-description-img-3: place-3.jpg
-item-description-img-3@2x: place-3@2x.jpg
+item-description-3: Повноцінний формат майстер-класів по 3 години
 
-item-description-4: ярмарка
-item-description-img-4: place-4.jpg
-item-description-img-4@2x: place-4@2x.jpg
+item-description-4: Зони фестивалю : лекційні, трансформаційних ігор, рухово-тілесні, психологічні , творчі, релакс, дитяча, ярмарка, фут корт.
 
-item-description-5: Футкорт
-item-description-img-5: place-5.jpg
-item-description-img-5@2x: place-5@2x.jpg
+
+
+
 
 item-description-6: арт-простір
 item-description-img-6: place-6.jpg
