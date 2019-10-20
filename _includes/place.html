@@ -4,23 +4,6 @@
       <div class="col"><h2>{{ site.data.nove-misce.title }}</h2></div>
     </div>
     <div class="row">
-      <div class="col-xl-auto col-sm-6 mt-xl-4">
-        <div class="place__item place__item_left">
-          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-description-img-1 }}"
-                                       srcset="img/{{ site.data.nove-misce.item-description-img-1 }} 1x, img/{{ site.data.nove-misce.item-description-img-1@2x }} 2x" alt=""></div>
-          <div class="place__descr">{{ site.data.nove-misce.item-description-1 }}</div>
-        </div>
-        <div class="place__item place__item_left">
-          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-description-img-2 }}"
-                                       srcset="img/{{ site.data.nove-misce.item-description-img-2 }} 1x, img/{{ site.data.nove-misce.item-description-img-2@2x }} 2x" alt=""></div>
-          <div class="place__descr">{{ site.data.nove-misce.item-description-2 }}</div>
-        </div>
-        <div class="place__item place__item_left">
-          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-description-img-3 }}"
-                                       srcset="img/{{ site.data.nove-misce.item-description-img-3 }} 1x, img/{{ site.data.nove-misce.item-description-img-3@2x }} 2x" alt=""></div>
-          <div class="place__descr">{{ site.data.nove-misce.item-description-3 }}</div>
-        </div>
-      </div>
       <div class="col-xl-5 col-12 d-flex order-first order-xl-0">
         <div class="place__video-container">
           <div class="place__video-top">
@@ -36,22 +19,12 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-auto col-sm-6 mt-xl-4">
-        <div class="place__item place__item_right">
-          <div class="place__descr">{{ site.data.nove-misce.item-description-4 }}</div>
-          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-description-img-4 }}"
-                                       srcset="img/{{ site.data.nove-misce.item-description-img-4 }} 1x, img/{{ site.data.nove-misce.item-description-img-4@2x }} 2x" alt=""></div>
-        </div>
-        <div class="place__item place__item_right">
-          <div class="place__descr">{{ site.data.nove-misce.item-description-5 }}</div>
-          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-description-img-5 }}"
-                                       srcset="img/{{ site.data.nove-misce.item-description-img-5 }} 1x, img/{{ site.data.nove-misce.item-description-img-5@2x }} 2x" alt=""></div>
-        </div>
-        <div class="place__item place__item_right">
-          <div class="place__descr">{{ site.data.nove-misce.item-description-6 }}</div>
-          <div class="place__img"><img src="img/{{ site.data.nove-misce.item-description-img-6 }}"
-                                       srcset="img/{{ site.data.nove-misce.item-description-img-6 }} 1x, img/{{ site.data.nove-misce.item-description-img-6@2x }} 2x" alt=""></div>
-        </div>
+      <div class="col mt-lg-4">
+        <ul>
+          {% for item in site.data.nove-misce.list %}
+            <li>{{ list.name }}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
